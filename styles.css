@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 27%;
+}
+
+.right {
+    width: 73%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.circle-div {
+    position: relative;
+    width: 90%;
+    padding-bottom: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-name {
+    padding: 5vh 0;
+    text-align: left;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.profile-name-carrer {
+    text-align: left;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+.low-title {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.inline-icon {
+    vertical-align: bottom;
+    font-size: 18px !important;
+}
+
+.celp-text {
+    padding-left: 1vw;
+}
+
+.icon-text {
+    padding-left: 1vw;
+    text-decoration: underline;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.work-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-name p {
+    font-weight: bold;
+}
+
+.vertical-line {
+    padding-left: 1vh;
+    border-left: solid #888888;
+}
+
+.new-section {
+    padding-top: 2vh;
+}
+
+.bold-text {
+    font-weight: bold;
+}
